@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace RightMove.Controllers
 {
@@ -13,16 +9,23 @@ namespace RightMove.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Rent()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Wynajmij mieszkanie";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Buy()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Kup co tam chcesz";
+
+            return View();
+        }
+
+        public ActionResult Sell()
+        {
+            ViewBag.Message = "Sprzedaj";
 
             return View();
         }
