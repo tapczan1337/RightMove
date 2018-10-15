@@ -29,5 +29,12 @@ namespace RightMove.Controllers
 
             return View();
         }
+
+        public ActionResult Map()
+        {
+            ViewBag.Message = "Mapa";
+
+            return View();
+        }
     }
 }
